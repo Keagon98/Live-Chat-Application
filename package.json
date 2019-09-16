@@ -7,12 +7,22 @@
   "description": "Chat App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Keagon Brinkhuis",
   "license": "ISC",
   "dependencies": {
     "socket.io": "*",
     "express": "*"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keagon98/Live-Chat-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Keagon98/Live-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/Keagon98/Live-Chat-Application#readme"
 }
